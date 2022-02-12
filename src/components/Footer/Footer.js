@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="footer-container">
                 <div className="footer-mail-container">
                     <h2>Help & Support</h2>
-                    <p onClick={sendEmail}>hello.adcratic@gmail.com</p>
+                    <p onClick={sendEmail}>peoplewhocodes@gmail.com</p>
                 </div>
                 <div className='footer-social-container'>
                     <h2>Quick Link</h2>
