@@ -13,7 +13,7 @@ const Footer = () => {
     }
 
     const sendEmail = () => {
-        const emailTo = "hello.adcratic@gmail.com";
+        const emailTo = "peoplewhocodes@gmail.com";
         const emailCC = "";
         const emailSub = "";
         const emailBody = "";
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className='copyright-section'>
-                  <p>©2022 PeopleWho.Code. All rights reserved.</p>
+                  <p>©2022 PeopleWho.Codes. All rights reserved.</p>
               </div>
           </section>  
         </>
