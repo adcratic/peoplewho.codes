@@ -51,3 +51,8 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
+// navbar spacing
+// tabs transition slow
+// mentor page padding
