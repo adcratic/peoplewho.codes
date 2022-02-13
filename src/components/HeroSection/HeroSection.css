@@ -53,9 +53,9 @@ mark{
     cursor: pointer;
 }
 
-.whatsappIcon{
-    font-size: 1.8rem;
-    color: #25D366;
+.discordIcon{
+    font-size: 2rem;
+    color: #7289DA;
 }
 
 .arrowIcon{
@@ -80,7 +80,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 70px;
 }
 
 .community-section-heading{
@@ -93,7 +93,7 @@ mark{
 .community-section-heading h2{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #303030;
+    color: #5B9FCF;
     font-style: italic;
 }
 
@@ -130,7 +130,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 70px;
 }
 
 .experience-section-heading{
@@ -144,7 +144,7 @@ mark{
 .experience-section-heading h2{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #303030;
+    color: #9265FF;
     font-style: italic;
     margin-bottom: 30px;
 }
@@ -178,7 +178,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 70px;
     margin-bottom: 40px;
 }
 
@@ -192,7 +192,7 @@ mark{
 .mentor-section-heading h2{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #303030;
+    color: #BD4B4B;
     font-style: italic;
 }
 
@@ -236,11 +236,12 @@ mark{
 
 .contributer-link{
     cursor: pointer;
+    transition: 400ms;
 }
 
 .contributer-link:hover{
     color: #000;
-    transition: 400ms;
+    transition: 600ms;
 }
 
 /* Mobile View */

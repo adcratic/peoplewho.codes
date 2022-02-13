@@ -12,11 +12,12 @@
   
   .navbar-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
+    width: 90%;
+    margin: auto;
     height: 80px;
-    max-width: 1500px !important;
+    /* max-width: 1500px !important; */
   }
 
   .nav-logo{
@@ -34,7 +35,6 @@
     display: flex;
     align-items: center;
     transition: 0.8s;
-    width: 190px;
   }
   
   .navbar-logo:hover{
@@ -55,9 +55,7 @@
     grid-gap: 13px;
     list-style: none;
     text-align: center;
-    width: 72vw;
-    justify-content: end;
-    margin-right: 2rem;
+    justify-content: flex-end;
   }
   
   .nav-item {
