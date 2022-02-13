@@ -12,7 +12,7 @@ const HeroSection = () => {
     }
 
     const openLink = ()=>{
-        window.open("https://www.adcratic.com")
+        window.open("https://discord.gg/bccuMvEZnV")
     }
 
     return (
@@ -24,10 +24,10 @@ const HeroSection = () => {
                 </div>
                 <div className='heroSectionText'>
                     <h2>The Coding Community</h2>
-                    <div className="w-node" onClick={()=> window.open("https://vectorzz.typeform.com/peoplewhocode")}>
-                        <i class="fab fa-whatsapp whatsappIcon"></i>
-                        <p><mark>let's start talking</mark></p>
-                        <i class="fas fa-arrow-right arrowIcon"></i>
+                    <div className="w-node" onClick={()=> window.open("https://discord.gg/bccuMvEZnV")}>
+                        <i className='fab fa-discord discordIcon'></i>
+                        <p>let's start talking</p>
+                        <i className="fas fa-arrow-right arrowIcon"></i>
                     </div>
                 </div>
             </section>
@@ -70,7 +70,7 @@ const HeroSection = () => {
                 <div className='mentor-section-content'>
                     <div className='mentor-section-p'>
                         <p>If you're a person who wants to give back to the community,<br/> we’ve got something for you.</p>
-                        <p className="contributer-link" onClick={openLink}><mark>join contributer network <i class="fas fa-arrow-right"></i></mark></p>
+                        <p className="contributer-link" onClick={openLink}>join contributer network <i class="fas fa-arrow-right"></i></p>
                     </div>
                     <div className='mentor-image'>
                         <img src="images/mentor.png" alt="communityImage"/>

@@ -1,10 +1,5 @@
 export const NavbarData = [
-    {
-        cName:'nav-links',
-        title: "Home",
-        link: "/"
-    },
-    {
+        {
         cName:'nav-links',
         title: "Events",
         link: "/events"
