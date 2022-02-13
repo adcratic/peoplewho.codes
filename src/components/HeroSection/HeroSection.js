@@ -12,7 +12,7 @@ const HeroSection = () => {
     }
 
     const openLink = ()=>{
-        window.open("https://discord.gg/bccuMvEZnV")
+        window.open("https://vectorzz.typeform.com/peoplewhocode")
     }
 
     return (
