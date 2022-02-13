@@ -25,7 +25,7 @@ const HeroSection = () => {
                 <div className='heroSectionText'>
                     <h2>The Coding Community</h2>
                     <div className="w-node" onClick={()=> window.open("https://vectorzz.typeform.com/peoplewhocode")}>
-                        <i class="fab fa-whatsapp whatsappIcon"></i>
+                        <i class="fab fa-discord discordIcon"></i>
                         <p><mark>let's start talking</mark></p>
                         <i class="fas fa-arrow-right arrowIcon"></i>
                     </div>
