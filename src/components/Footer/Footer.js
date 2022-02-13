@@ -13,7 +13,7 @@ const Footer = () => {
     }
 
     const sendEmail = () => {
-        const emailTo = "hello.adcratic@gmail.com";
+        const emailTo = "peoplewhocodes@gmail.com";
         const emailCC = "";
         const emailSub = "";
         const emailBody = "";
@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="footer-container">
                 <div className="footer-mail-container">
                     <h2>Help & Support</h2>
-                    <p onClick={sendEmail}>hello.adcratic@gmail.com</p>
+                    <p onClick={sendEmail}>peoplewhocodes@gmail.com</p>
                 </div>
                 <div className='footer-social-container'>
                     <h2>Quick Link</h2>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className='copyright-section'>
-                  <p>©2022 PeopleWho.Code. All rights reserved.</p>
+                  <p>©2022 PeopleWho.Codes. All rights reserved.</p>
               </div>
           </section>  
         </>
