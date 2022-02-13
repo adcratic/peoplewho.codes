@@ -80,7 +80,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 70px;
 }
 
 .community-section-heading{
@@ -130,7 +130,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 70px;
 }
 
 .experience-section-heading{
@@ -178,7 +178,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 70px;
     margin-bottom: 40px;
 }
 
@@ -236,11 +236,12 @@ mark{
 
 .contributer-link{
     cursor: pointer;
+    transition: 400ms;
 }
 
 .contributer-link:hover{
     color: #000;
-    transition: 400ms;
+    transition: 600ms;
 }
 
 /* Mobile View */
