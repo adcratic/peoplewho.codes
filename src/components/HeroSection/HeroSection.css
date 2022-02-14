@@ -25,7 +25,7 @@ mark{
 }
 
 .heroSectionImage img{
-    width: 650px;
+    width: 600px;
 }
 
 .heroSectionText{
@@ -80,7 +80,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 40px 70px;
 }
 
 .community-section-heading{
@@ -130,7 +130,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 40px 70px;
 }
 
 .experience-section-heading{
@@ -178,7 +178,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px;
+    padding: 40px 70px;
     margin-bottom: 40px;
 }
 
@@ -244,6 +244,11 @@ mark{
     transition: 600ms;
 }
 
+.contributer-link:active{
+    color: #000;
+    transition: 600ms;
+}
+
 /* Mobile View */
 
 @media screen and (max-width: 960px){
@@ -253,7 +258,7 @@ mark{
     }
 
     .heroSectionImage img{
-        width: 70vw;
+        width: 65vw;
     }
 
     .heroSectionText h2{
@@ -262,6 +267,10 @@ mark{
 
     .w-node p{
         font-size: 1.2rem;
+    }
+
+    .community-section, .experience-section ,.mentor-section{
+        padding: 20px 40px;
     }
 
     .community-section-content{
@@ -288,6 +297,7 @@ mark{
     .experience-section-image{
         display: none;
     }
+
 
     .mentor-section-heading h2{
         font-size: 2rem;
@@ -323,6 +333,14 @@ mark{
 
     .heroSectionText{
         flex: 1;
+    }
+
+    .community-section-heading h2, .experience-section-heading h2, .mentor-section-heading h2{
+        font-size: 1.8rem;
+    }
+
+    .community-section, .experience-section, .mentor-section{
+        padding: 20px;
     }
 
     .community-image img{
