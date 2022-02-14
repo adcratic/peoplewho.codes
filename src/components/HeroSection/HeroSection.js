@@ -69,7 +69,7 @@ const HeroSection = () => {
                 </div>
                 <div className='mentor-section-content'>
                     <div className='mentor-section-p'>
-                        <p>If you're a person who wants to give back to the community,<br/> we’ve got something for you.</p>
+                        <p>Are you someone who wants to give back to the community? Yes! we’ve got something for you...</p>
                         <p className="contributer-link" onClick={openLink}>join contributer network <i class="fas fa-arrow-right"></i></p>
                     </div>
                     <div className='mentor-image'>
