@@ -21,7 +21,8 @@
 
 .footer-mail-container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
 }
@@ -44,6 +45,7 @@
 .footer-social-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
 }
