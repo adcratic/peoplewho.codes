@@ -36,9 +36,11 @@ const Footer = () => {
                 <div className='footer-social-container'>
                     <h2>Quick Link</h2>
                     <div className="footer-social-icons">
-                        <i onClick={()=> window.open("https://www.instagram.com")} class="fab fa-instagram instagram"></i>
-                        <i onClick={()=> window.open("https://www.linkedin.com")} class="fab fa-linkedin-in linkedIn"></i>
-                        <i onClick={()=> window.open("https://www.twitter.com")} class="fab fa-twitter twitter"></i>
+                        <i onClick={()=> window.open("https://www.instagram.com/peoplewho_codes/")} class="fab fa-instagram instagram"></i>
+                        <i onClick={()=> window.open("https://www.linkedin.com/company/peoplewho-codes/")} class="fab fa-linkedin-in linkedIn"></i>
+                        <i onClick={()=> window.open("https://twitter.com/peoplewho_codes")} class="fab fa-twitter twitter"></i>
+                        <i onClick={()=> window.open("https://www.youtube.com/c/PeopleWhoCodes")} class="fab fa-youtube youtube"></i>
+
                     </div>
                 </div>
               </div>
