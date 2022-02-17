@@ -82,6 +82,11 @@
     transition: 300ms;
 }
 
+.youtube:hover{
+    color: #ff3932;
+    transition: 300ms;
+}
+
 .copyright-section{
     width: 100%;
     padding: 20px;
